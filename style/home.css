@@ -1,0 +1,19 @@
+.paragraph-rect {
+  width: 875px;
+  height: 124px;
+  font-family: Hanken Grotesk;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%; 
+  letter-spacing: 0%;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+
+p {
+  z-index: 1;
+}
