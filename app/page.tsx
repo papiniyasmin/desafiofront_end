@@ -20,7 +20,7 @@ export default function Home() {
             A Visualforma acredita que a qualidade deve ir para além da certificação e,
             por isso, integra-a na forma como envolve todos os colaboradores numa missão 
             e desafios únicos – não apenas satisfazer as expectativas do Cliente, mas
-            excedê-las, pois somente um Cliente muito satisfeito se tornará num cliente leal.
+            excedê las pois somente um Cliente muito satisfeito se tornará num cliente leal.
           </p>
           <a href="#" className="text-[#3F48CC] mt-2 inline-block">
             Marque já uma consulta →
