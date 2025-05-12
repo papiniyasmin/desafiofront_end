@@ -1,8 +1,8 @@
 .paragraph-rect {
   width: 875px;
   height: 124px;
-  font-family: Hanken Grotesk;
-  font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 3000;
   font-size: 16px;
   line-height: 140%; 
   letter-spacing: 0%;
@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-right: 290px;
 }
 
 
