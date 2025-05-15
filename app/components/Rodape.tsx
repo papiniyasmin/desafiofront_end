@@ -1,4 +1,5 @@
 'use cliente';
+import Image from "next/image";
 
 export default function rodape() {
   return ( 
