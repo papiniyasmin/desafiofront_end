@@ -109,20 +109,24 @@ export default function Index() {
 <span className="font-outfit 
   not-italic 
   font-semibold relative text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.9)] 
-  before:content-[''] 
-  before:absolute 
-  before:inset-0 
-  before:bg-[url('/futuro.png')] 
-  before:bg-[length:80%_auto] 
-  before:bg-no-repeat 
-  before:opacity-70
-    before:bg-[calc(35px)_center] 
-  before:z-[-1]  after:content-[''] 
-  after:absolute 
-  after:inset-0 
-  after:to-transparent 
-  after:opacity-100 
-  after:z-[-1]">
+  lg:before:content-[''] 
+  lg:before:absolute 
+  lg:before:inset-0 
+  lg:before:bg-[url('/futuro.png')] 
+  lg:before:bg-[length:80%_auto] 
+  lg:before:bg-no-repeat 
+  lg:before:opacity-70
+    lg:before:bg-[calc(35px)_center] 
+  lg:before:z-[-1]  after:content-[''] 
+  md:before:content-[''] 
+  md:before:absolute 
+  md:before:inset-0 
+  md:before:bg-[url('/futuro.png')] 
+  md:before:bg-[length:80%_auto] 
+  md:before:bg-no-repeat 
+  <md:before:opacity-80></md:before:opacity-80>
+    md:before:bg-[calc(20px)_center] 
+  md:before:z-[-1]  after:content-[''] ">
   O FUTURO
 </span>
             , JUNTOS
