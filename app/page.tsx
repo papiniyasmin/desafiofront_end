@@ -6,6 +6,7 @@ import DentroVisualforma from '../components/DentroVisualforma';
 import Clientes from '../components/Clientes';
 import VisualformaNumeros from '../components/VisualformaNumeros';
 import Index from '../components/Index';
+import Rodape from '../components/Rodape';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <VisualformaNumeros />
       <Clientes />
       <DentroVisualforma />
+      <Rodape />
     </main>
   );
 }
