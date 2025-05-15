@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Index() {
   return (
     <>
-      {/* HEADER MOBILE (< md) */}
+{/* HEADER MOBILE (< md) */}
       <header className="bg-[#090056] shadow-md md:hidden">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           {/* LOGO + TEXTO */}
@@ -15,6 +15,25 @@ export default function Index() {
 
           {/* ÍCONES */}
           <div className="flex items-center space-x-4">
+            <div className="bg-[#2C06FF] w-10 h-10 flex items-center justify-center rounded-full">
+              <Image src="/images/Chats-Bold--Streamline-Phosphor-1.png" width={20} height={20} alt="Chat Icon" />
+            </div>
+            <div className="bg-white/20 w-10 h-10 flex items-center justify-center rounded-full">
+              <Image src="/images/minus.png" width={20} height={20} alt="Minus Icon" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* HEADER TABLET (md até < lg) */}
+      <header className="bg-[#090056] shadow-md hidden md:flex lg:hidden">
+        <div className="w-full py-4 flex justify-between items-center">
+          <div className="flex items-center space-x-4 pl-[5px]">
+            <Image src="/images/group-32400.png" alt="Logo Tablet" width={169} height={31} />
+            <span className="text-white text-[30px]">30</span>
+          </div>
+
+          <div className="flex items-center space-x-4 mr-4">
             <div className="bg-[#2C06FF] w-10 h-10 flex items-center justify-center rounded-full">
               <Image src="/images/Chats-Bold--Streamline-Phosphor-1.png" width={20} height={20} alt="Chat Icon" />
             </div>
